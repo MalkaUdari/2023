@@ -1,0 +1,97 @@
+:root{
+    --color-1:#fca702;
+    --color-2:#0dd0a0;
+    --font-1:'Abril Fatface','cursive';
+    --font-2:'PT Sans', sans-serif;
+    --font-4:'DM Serif Text', serif;
+
+
+}
+
+/* 
+#zse5{
+    position: relative;
+    top: -77px;
+} */
+.x5d1{
+    background:url(../img/beach.webp)no-repeat;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    top: -150px;
+    height:470px;
+}
+.x5d4{
+    background: #000000a6;
+    height: 100%;
+}
+.x5h1{
+    font-family: var(--font-4);
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+.x5d3{
+    position: relative;
+    top: 287px;
+}
+.x5s1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.x5a1{
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: var(--font-2);
+    text-decoration: none;
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 16px;
+
+}
+.x5a1:last-child::before{
+    content: "";
+    background-size: 14px 20px;
+    width: 34px;
+    height: 42px;
+    display: block;
+    position: relative;
+    background-image: url(../img/icon/4.1.svg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    left: 12px;
+    top: 13px;
+}
+@media screen and (max-width:1100px) {
+    .x5h1{
+        font-size: 36px;
+    }
+    .x5a1:last-child::before{
+        background-size: 14px 20px;
+        width: 42px;
+        height: 43px;
+    }
+    
+}
+@media screen and (max-width:940px) {
+    .x5d3{
+    position: relative;
+    top: 309px;
+}
+    
+}
+@media screen and (max-width:516px) {
+    .x5h1 {
+    font-size: 26px;
+    }
+    
+}
+
+
